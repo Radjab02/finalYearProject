@@ -1,5 +1,5 @@
 
-This project was created in order to prevent cheating that usually happens during counting votes because votes are decrypted prior to be tallied. The security comes from the fact that the browser encrypts the vote prior to sending the vote to the server which performs tallying on those encrypted votes without decrypting them. The e-voting consists of index.php, login.php, registration file(reg2.php) and profile, and logout.php files. Assuming you have NetBeans and Xampp installed. Here is how to run this project.
+This project was created in order to prevent cheating that usually happens during counting votes because votes are decrypted prior to being tallied. The security comes from the fact that the browser encrypts the vote prior to sending the vote to the server which performs tallying on those encrypted votes without decrypting them. The e-voting consists of index.php, login.php, registration file(reg2.php) and profile, and logout.php files. Assuming you have NetBeans and Xampp installed. Here is how to run this project.
 
 Tools required:
    1 Netbeans IDE
@@ -22,7 +22,5 @@ In XAMPP
 
 7. In NetBeans Select PaillierCrypto project and  run it.  Check Xampp control panel , Tomcat server should be running on port 8080
 
-8. Go to the evoting project inside Netbeans, under source files double click on index.php and hit run again.
-
- a browser should open and load localhost:8080/evoting/index.php
+8. Go to the evoting project inside Netbeans, under source files double click on index.php and hit run again. A browser should open and load localhost:8080/evoting/index.php
 
