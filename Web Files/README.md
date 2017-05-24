@@ -1,2 +1,11 @@
 # finalYearProject
-A JAVA IMPLEMENTATION OF ADDITIVE HOMOMORPHIC      ENCRYPTION SCHEME Description of FYP:  The project aimed to implement the Paillier's encryption scheme which supports additive homomorphic property. The homomorphic property works as follows: Given the public key and the ciphertext C1 =Enc(M1 ), C2=Enc(M2), one can compute C3=C1 +C2 and decrypt the plaintext as M3=M1 +M2, without knowing what is the value of M1 and M2.  The first phase of the project was to implement the Paillier encryption scheme; the second phase of the project was to apply the Paillier encryption scheme in Electronic Voting system as a website.
+the code is structure is such way the css file, html and php files are separated. following is the decription of the code found in each file:
+
+index.php : the index.php page cantains the code that prompts user to enter username and password
+admin_page.php : contains the code for interface of the admin page.
+profile.php this file Contains Htmls and php codes for a typical homepage for a successfully logged in user
+session.php: contain the functions and the bulk of the php code for the profile.php file
+reg2.php : the reg2.php page is used to register new users/voters to the electronic evoting system
+logout.php : the user is redirected to logout.php when they log out
+mydb.php: contain the code used for database connection
+style: this is the file that contains all styles for the elecronic voting system
