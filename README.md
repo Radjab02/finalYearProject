@@ -25,4 +25,4 @@ In XAMPP
 8. Go to the evoting project inside Netbeans, under source files double click on index.php and hit run again.
 
  a browser should open and load localhost:8080/evoting/index.php
-Note: Please make sure you create the database before you run the project, find the database queries on the CD under source code folder.
+
