@@ -1,7 +1,7 @@
-Hi there! Assuming you have NetBeans and Xampp installed. Here is how to run this project.
 
+This project was created in order to prevent cheating that usually happens during counting votes because votes are decrypted prior to be tallied. The security comes from the fact that the browser encrypts the vote prior to sending the vote to the server which performs tallying on those encrypted votes without decrypting them. The e-voting consists of index.php, login.php, registration file(reg2.php) and profile, and logout.php files. Assuming you have NetBeans and Xampp installed. Here is how to run this project.
 
- Tools required:
+Tools required:
    1 Netbeans IDE
    2 Xampp 
 
