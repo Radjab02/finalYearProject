@@ -1,0 +1,14 @@
+long startTime = System.currentTimeMillis();
+
+doSomething(); // loop
+
+long finishTime = System.currentTimeMillis();
+
+System.out.println("Encryption took: "+(finishTime-startTime)+ " ms");
+System.out.println("Decryption took: "+(finishTime-startTime)+ " ms");
+System.out.println("Key Generation took: "+(finishTime-startTime)+ " ms");
+
+long start = System.nanoTime();
+// do stuff
+long end = System.nanoTime();
+long microseconds = (end - start) / 1000;
