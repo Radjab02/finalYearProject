@@ -1,5 +1,5 @@
 # finalYearProject
-the code is structured in such way that the css file, html and php files are separated in different files. the Following is the decription of the code found in each file:
+The code is structured in such way that the css file, html and php files are separated in different files. The Following is the decription of the code found in each file:
 
 index.php : the index.php page cantains the code that prompts user to enter username and password
 admin_page.php : contains the code for interface of the admin page.
